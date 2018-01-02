@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout Html</title>
+</head>
+<body>
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="" title="" rel="home"></a></h1>
+			<h2 class="site-description"></h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle"></button>
+			<a class="assistive-text" href="#content" title=""></a>
+		</nav><!-- #site-navigation -->	
+	</header><!-- #masthead -->	
+
+	<div id="main" class="wrapper">	
+		<div id="primary" class="site-content">
+			<div id="content" role="main">	
+				<article id="post">
+					<div class="featured-post">
+					</div>
+					<header class="entry-header">
+						<h1 class="entry-title"></h1>
+						<h1 class="entry-title">
+							<a href="" rel="bookmark"></a>
+						</h1>
+						<div class="comments-link">
+							<span class="leave-reply"></span>
+						</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+					<div class="entry-summary">
+					</div><!-- .entry-summary -->
+
+					<div class="entry-content">
+						<span class="meta-nav">&rarr;</span>
+						<div class="page-links"></div>
+					</div><!-- .entry-content -->
+
+					<footer class="entry-meta">
+						<div class="author-info">
+							<div class="author-avatar">
+							</div><!-- .author-avatar -->
+							<div class="author-description">
+								<h2></h2>
+								<p></p>
+								<div class="author-link">
+								</div><!-- .author-link	-->
+							</div><!-- .author-description -->
+						</div><!-- .author-info -->
+					</footer><!-- .entry-meta -->
+				</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text"></h3>
+					<span class="nav-previous">
+						<span class="meta-nav"></span> 
+					</span>
+					<span class="nav-next"> 
+						<span class="meta-nav"></span>
+					</span>
+				</nav><!-- .nav-single -->
+			</div><!-- #content -->
+
+			<div id="comments" class="comments-area">
+				<h2 class="comments-title">
+					<span></span>
+				</h2>
+				<ol class="commentlist">
+				</ol><!-- .commentlist -->
+				<nav id="comment-nav-below" class="navigation" role="navigation">
+					<h1 class="assistive-text section-heading"></h1>
+					<div class="nav-previous"></div>
+					<div class="nav-next"></div>
+				</nav>
+				<p class="nocomments"></p>
+			</div><!-- #comments .comments-area -->	
+
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+		</div><!-- #secondary -->
+	</div><!-- #main .wrapper -->
+
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->	
+</div><!-- #page -->
+</body>
+</html>
